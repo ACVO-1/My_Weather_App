@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pick_place">Выбрать место</string>
+    <string name="password_error">Ошибка пароля</string>
+    <string name="user_success">Успешно</string>
+    <string name="user_not_found">Пользователь не найден</string>
+    <string name="enter_login_or_password">Введите логин или пароль</string>
+    <string name="welcome_name">"Приветствую: "</string>
+    <string name="user_exist">Логин занят</string>
+    <string name="passwords_not_equals">Пароли не равны</string>
+    <string name="fill_all_fields">Заполните все поля</string>
+    <string name="password">Пароль</string>
+    <string name="register">Регистрация</string>
+    <string name="registration">Регистрация</string>
+    <string name="name">Имя</string>
+    <string name="login">Логин</string>
+    <string name="confirm_password">Подтверждение пароля</string>
+    <string name="sign_in">Вход</string>
+    <string name="menu">Главное меню</string>
+    <string name="map">Карта</string>
+    <string name="list">История</string>
+    <string name="search">Поиск</string>
+</resources>

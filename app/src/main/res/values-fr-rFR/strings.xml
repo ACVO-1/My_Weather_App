@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="password_error">Mot de passe incorrect</string>
+    <string name="user_success">Succès</string>
+    <string name="user_not_found">L\'utilisateur est introuvable</string>
+    <string name="enter_login_or_password">Remplissez les zones</string>
+    <string name="fill_all_fields">Remplissez les zones</string>
+    <string name="search">Chercher</string>
+    <string name="list">Archiver</string>
+    <string name="map">Carte</string>
+    <string name="passwords_not_equals">Les mots de passe ne correspondent pas</string>
+    <string name="welcome_name">"Salutations: "</string>
+    <string name="user_exist">Connexion occupée</string>
+    <string name="pick_place">Choisissez un siège</string>
+    <string name="register">Enregistrement</string>
+    <string name="password">Mot de passe</string>
+    <string name="menu">Menu</string>
+    <string name="sign_in">Se connecter</string>
+    <string name="registration">Enregistrement</string>
+    <string name="name">Nom</string>
+    <string name="login">S\'identifier</string>
+    <string name="confirm_password">Confirmez le mot de passe</string>
+</resources>

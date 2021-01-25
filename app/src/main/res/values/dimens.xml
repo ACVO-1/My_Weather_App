@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_big">24sp</dimen>
+    <dimen name="text_size">18sp</dimen>
+    <dimen name="butt_pad">16dp</dimen>
+    <dimen name="butt_mar">8dp</dimen>
+    <dimen name="butt_text_size">16sp</dimen>
+    <dimen name="big_text_size">24sp</dimen>
+</resources>

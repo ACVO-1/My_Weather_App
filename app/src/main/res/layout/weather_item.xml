@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="left|center">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@android:color/white"
+        android:alpha="0.2"/>
+
+    <ImageView
+        android:id="@+id/wi_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4.5dp"
+        tools:background="@color/colorPrimaryDark"
+        app:srcCompat="@drawable/ic_cloud_black_24dp" />
+    <TextView
+        android:id="@+id/wi_city_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="London"
+        android:layout_marginStart="8dp"
+        android:textSize="20sp"
+        android:layout_toEndOf="@id/wi_iv"/>
+    <TextView
+        android:id="@+id/wi_weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Clouds"
+        android:layout_marginStart="8dp"
+        android:textSize="20sp"
+        android:layout_toEndOf="@id/wi_iv"
+        android:layout_below="@+id/wi_city_name"/>
+</RelativeLayout>
