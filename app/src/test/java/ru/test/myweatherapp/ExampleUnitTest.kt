@@ -22,10 +22,6 @@ class ExampleUnitTest {
             khttp.get("http://api.openweathermap.org/data/2.5/weather?q=omsk&lang=$LANG&units=metric&appid=2432de4ce093d9479f611edbe48a5760")
         val obj = response.jsonObject
 
-
-
-
-
         if (obj["cod"] == "404") {
             println("Ошибка города")
 
