@@ -33,7 +33,7 @@ class SearchActivity : AppCompatActivity() {
         try {
             val imm = getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager
             imm.hideSoftInputFromWindow(currentFocus!!.windowToken, 0)
-        } catch (e: Exception) {
+        } catch (e: Exception)  {
         }
 
         if (text_search.text.isNullOrEmpty()){
